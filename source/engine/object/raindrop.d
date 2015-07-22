@@ -61,7 +61,7 @@ struct RainDrop {
 		visible = true;
 	}
 	
-	public bool collideWith(ref Sprite sprite) {
+	public bool collidesWith(ref Sprite sprite) {
 		bool colliding = false;
 		
 		if (this.sprite.getClipRect().intersects(sprite.getClipRect())) {

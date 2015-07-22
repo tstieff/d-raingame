@@ -101,7 +101,7 @@ class Game {
 	private void checkCollisions() {
 		for(int i = 0; i < MAX_RAINDROPS; i++) {
 			if (rainDrops[i].visible) {
-				if (rainDrops[i].collideWith(player.sprite)) {
+				if (rainDrops[i].collidesWith(player.sprite)) {
 					rainDrops[i].visible = false;
 					player.lives--;
 					
