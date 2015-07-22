@@ -1,0 +1,11 @@
+{
+	"name" : "DRainGame",
+	"description" : "Avoid the rain drops",
+	"sourcePaths": [
+		"source"
+	],
+	"dependencies" : {
+		"dgame": ">=0.6.0"
+	},
+	"targetPath": "bin"
+}
