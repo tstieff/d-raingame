@@ -1,5 +1,5 @@
-# deegame
-Simple game made using D and DGame
+# DRainGame
+Simple game implementation of the deegame engine framework
 
 Dependencies
 ============
